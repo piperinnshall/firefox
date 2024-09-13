@@ -1,0 +1,22 @@
+#tablist {
+  scrollbar-width: none;
+  --tab-separator: hsla(0, 0%, 0%, 0);
+}
+
+#topmenu {
+  visibility: collapse;
+}
+
+.tab-loading-burst {
+  display: none;
+}
+
+/* Hide close button */
+.tab-close {
+  display: none;
+}
+
+/* Fix title gradient */
+#tablist .tab:hover > .tab-title-wrapper {
+  mask-image: linear-gradient(to left, transparent 0, black 2em);
+}

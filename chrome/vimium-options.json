@@ -1,0 +1,14 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\nmap J nextTab\nmap K previousTab",
+  "settingsVersion": "2.1.2",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://vim-adventures.com/*"
+    },
+    {
+      "passKeys": "*",
+      "pattern": "https?://monkeytype.com/*"
+    }
+  ]
+}
