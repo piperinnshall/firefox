@@ -1,0 +1,3 @@
+# 🦊 firefox
+
+My firefox Dotfiles
